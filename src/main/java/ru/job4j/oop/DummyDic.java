@@ -2,7 +2,7 @@ package ru.job4j.oop;
 
 public class DummyDic {
     public String engToRus() {
-        String word =("eng");
+        String word = ("eng");
         return word;
     }
 
@@ -10,8 +10,5 @@ public class DummyDic {
         DummyDic dic = new DummyDic();
         String eng = dic.engToRus();
         System.out.println("Неизвестное слово " + eng);
-
-
-
     }
 }
