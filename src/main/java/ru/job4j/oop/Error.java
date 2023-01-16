@@ -9,12 +9,12 @@ public class Error {
     }
 
     public Error(boolean active, int status, String message) {
-        this.active = true;
-        this.status = 404;
-        this.message = "Все плохо";
+        this.active = active;
+        this.status = status;
+        this.message = message;
     }
 
-    public void printInfo(boolean active, int status, String message) {
+    public void printInfo() {
         System.out.println("Ошибка активна: " + active);
         System.out.println("Статус ошибки: " + status);
         System.out.println("Сообщение ошибки: " + message);
@@ -22,7 +22,9 @@ public class Error {
 
     public static void main(String[] args) {
         Error error = new Error();
-        error.printInfo(true, 404, "Все плохо");
+        Error error1 = new Error(true,404, "Все плохо ");
+        error.printInfo();
+        error1.printInfo();
 
     }
 }
