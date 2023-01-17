@@ -1,7 +1,6 @@
 package ru.job4j.condition;
 
 import static java.lang.Math.*;
-
 public class Point {
 
     private int x;

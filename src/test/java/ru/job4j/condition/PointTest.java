@@ -4,7 +4,6 @@ import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
-
 public class PointTest {
 
     @Test
