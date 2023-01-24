@@ -11,7 +11,7 @@ public class Calculator {
     }
 
     public static int max(int left, int right, int middle, int up) {
-        return max(left,(max(middle,up)));
+        return max(left, (max(middle, up)));
     }
 
     public static void main(String[] args) {
