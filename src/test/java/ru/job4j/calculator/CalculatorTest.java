@@ -1,5 +1,4 @@
 package ru.job4j.calculator;
-
 import junit.framework.TestCase;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
