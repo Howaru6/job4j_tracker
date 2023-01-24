@@ -1,5 +1,4 @@
 package ru.job4j.calculator;
-
 public class Calculator {
 
     public static int max(int left, int right) {
