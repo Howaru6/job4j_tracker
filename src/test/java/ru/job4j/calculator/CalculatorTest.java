@@ -42,6 +42,27 @@ public class CalculatorTest {
         int result = Calculator.max(left, right, middle);
         int expected = 5;
         Assertions.assertThat(result).isEqualTo(expected);
+    }
 
+    @Test
+    public void whenMax2To4To6To11Then11() {
+        int left = 2;
+        int right = 4;
+        int middle = 6;
+        int up = 11;
+        int result = Calculator.max(left, right, middle, up);
+        int expected = 11;
+        Assertions.assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    public void whenMax12To9To1To13Then13() {
+        int left = 12;
+        int right = 9;
+        int middle = 1;
+        int up = 13;
+        int result = Calculator.max(left, right, middle, up);
+        int expected = 13;
+        Assertions.assertThat(result).isEqualTo(expected);
     }
 }
