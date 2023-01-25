@@ -7,6 +7,10 @@ public class Item {
         return id;
     }
 
+    public void getName(String name) {
+
+    }
+
     public void setName(String name) {
         this.name = name;
     }
