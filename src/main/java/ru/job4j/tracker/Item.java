@@ -11,7 +11,7 @@ public class Item {
         this.name = name;
     }
 
-    public void setId(int i){
+    public void setId(int i) {
 
     }
 
