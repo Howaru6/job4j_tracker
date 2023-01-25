@@ -8,6 +8,7 @@ public class Item {
     }
 
     public void getName(String name) {
+        this.name = name;
 
     }
 
