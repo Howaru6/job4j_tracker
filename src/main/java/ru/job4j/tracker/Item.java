@@ -22,7 +22,6 @@ public class Item {
 
     private LocalDateTime created = LocalDateTime.now();
 
-
     public int getId() {
         return id;
     }
