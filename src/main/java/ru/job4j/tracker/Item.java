@@ -35,6 +35,4 @@ public class Item {
         System.out.println("Имя ползователя: " + name);
         System.out.println("ID ползователя: " + id);
     }
-
-
 }
