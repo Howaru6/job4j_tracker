@@ -3,6 +3,22 @@ public class Item {
     private int id;
     private String name;
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public Item() {
     }
 
@@ -20,12 +36,5 @@ public class Item {
         System.out.println("ID ползователя: " + id);
     }
 
-    public static void main(String[] args) {
-        Item first = new Item("Олег", 12802341);
-        first.printinfo();
-        Item second = new Item("Александр");
-        second.printinfo();
-        Item third = new Item();
-        third.printinfo();
-    }
+
 }
