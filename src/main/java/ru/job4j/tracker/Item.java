@@ -15,6 +15,7 @@ public class Item {
         this.name = name;
         this.id = id;
     }
+
     private int id;
 
     private String name;
