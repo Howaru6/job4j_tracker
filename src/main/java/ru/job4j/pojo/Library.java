@@ -12,17 +12,17 @@ public class Library {
         books[1] = c;
         books[2] = python;
         books[3] = cleanCode;
-        for (Book i : books) {
-            System.out.println(i.getName() + " " + i.getPages());
+        for (Book book : books) {
+            System.out.println(book.getName() + " " + book.getPages());
         }
         books[0] = cleanCode;
         books[3] = java;
-        for (Book i : books) {
-            System.out.println(i.getName() + " " + i.getPages());
+        for (Book book : books) {
+            System.out.println(book.getName() + " " + book.getPages());
         }
-        for (Book i : books) {
-            if (i.getName().equals("Clean code")) {
-                System.out.println(i.getName() + " " + i.getPages());
+        for (Book book : books) {
+            if (book.getName().equals(book.getName())) {
+                System.out.println(book.getName() + " " + book.getPages());
             }
         }
     }
