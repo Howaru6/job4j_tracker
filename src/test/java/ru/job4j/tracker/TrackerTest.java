@@ -51,4 +51,11 @@ public class TrackerTest {
         Item[] result = tracker.findByName(second.getName());
         assertThat(result[1].getName()).isEqualTo(second.getName());
     }
+
+    @Test
+    public void test() {
+        String s1 = new String("s1");
+        String s2 = new String("s1");
+        System.out.println(s1.equals(s2));
+    }
 }
