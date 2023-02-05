@@ -49,8 +49,6 @@ public class StartUI {
                 } else {
                     System.out.println("Ошибка удаления заявки.");
                 }
-            } else if (select == 6) {
-                run = false;
             } else if (select == 4) {
                 System.out.println("=== Find item by id ===");
                 System.out.print("Enter id: ");
@@ -73,6 +71,8 @@ public class StartUI {
                 } else {
                     System.out.println("Заявки с именем: " + name + " не найдены.");
                 }
+            } else if (select == 6) {
+                run = false;
             }
         }
     }
