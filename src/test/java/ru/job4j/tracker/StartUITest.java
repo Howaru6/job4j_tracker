@@ -125,7 +125,7 @@ public class StartUITest {
                 "Menu." + ln
                         + "0. Find Item name" + ln
                         + "1. Exit Program" + ln
-                        + "=== Find Items by name ===" + ln
+                        + "=== Find items by name ===" + ln
                         + one + ln
                         + "Menu." + ln
                         + "0. Find Item name" + ln
