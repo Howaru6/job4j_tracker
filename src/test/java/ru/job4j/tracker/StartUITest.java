@@ -98,7 +98,7 @@ public class StartUITest {
                 "Menu." + ln
                         + "0. Show All Items" + ln
                         + "1. Exit Program" + ln
-                        + "=== Show all items ===" + ln
+                        + "=== Show all Items ===" + ln
                         + one + ln
                         + "Menu." + ln
                         + "0. Show All Items" + ln
