@@ -27,5 +27,14 @@ public class AttachmentSort {
         };
         attachments.sort(comparator1);
         System.out.println(attachments);
+        Comparator<Attachment> cmpText = (left, right) ->
+                left.getName().compareTo(right.getName());
+        attachments.sort(cmpText);
+        System.out.println(attachments);
+        Comparator<Attachment> cmpDescSize = (left, right) ->
+                Integer.compare(right.getName().length(),
+                        left.getName().length());
+        attachments.sort(cmpDescSize);
+        System.out.println(attachments);
     }
 }
